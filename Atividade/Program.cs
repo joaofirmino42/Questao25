@@ -19,7 +19,7 @@ namespace Atividade
         public static void CalcularMenorMultiploComum()
         {
             int num1, num2, x, y, mmc = 0;
-           
+
             Console.Write("Informe o primeiro número : ");
             num1 = int.Parse(Console.ReadLine());
             Console.Write("Informe o segundo número : ");
@@ -41,8 +41,7 @@ namespace Atividade
             Console.Write("\nO Menor múltiplo Comum entre : ");
             Console.WriteLine("{0} e {1} é {2}", x, y, mmc);
             Console.ReadLine();
-            //  Rodape("Pressione qualquer tecla para Retornar.");
-            //  Menu();
+
         }
     }
 }
